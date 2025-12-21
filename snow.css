@@ -15,21 +15,16 @@
     background-color: #ffff;
     border-radius: 50%;
     animation: fallingSnow 3s linear infinite;
-
     position: absolute;
     left: 0;
     top: -40px;
 }
 
 @keyframes fallingSnow{
-    0%{
-        transform: translateY(0);
-    }
-    100%{
-        transform: translateY(100vh);
-    }
-
+    0%{transform: translateY(0)}
+    100%{transform: translateY(100vh)}
 }
+
 .snow:nth-child(1){
     left: 80%;
     width: 20px;
